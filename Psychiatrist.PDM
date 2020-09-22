@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Psychiatrist
+
+
+[Package|Psychiatrist|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Psychiatrist
+
+[Package|Psychiatrist|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Psychiatrist|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Psychiatrist|Files Found]
+
+[Package|Psychiatrist|Files Released]
+
+[Package|Psychiatrist|Missing Dependency Information]
+
+[Package|Psychiatrist|Out-of-Date Dependency Information]
+
+[Package|Psychiatrist|Files Added]
+
+[Package|Psychiatrist|Files Removed]
+
+[Package|Psychiatrist|Files In Project]
+C:\WINDOWS\Desktop\Visual Basic\Zerocool Chat\Psychiatrist.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Microsoft Visual Studio\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Microsoft Visual Studio\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Microsoft Visual Studio\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Microsoft Visual Studio\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Psychiatrist|Configure Registry Files]
+Applicable=No
+
+[Package|Psychiatrist|Configure Remote Servers]
+Applicable=No
+
+[Package|Psychiatrist|Install Locations]
+C:\WINDOWS\Desktop\Visual Basic\Zerocool Chat\Psychiatrist.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Psychiatrist|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Visual Basic\Zerocool Chat\Psychiatrist.exe=Yes
+
+[Package|Psychiatrist|Distribution]
+Type=single
+Size=
+Title=Zero Cool the "Psychiatrist"
+
+[Package|Psychiatrist|IconGroups]
+Group0=Zero Cool the "Psychiatrist"
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Psychiatrist|Zero Cool the "Psychiatrist"]
+Icon1=Psychiatrist.exe
+Title1=Click
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Psychiatrist|Package]
+PackageFolder=C:\Psychiatrist
+ProjectFolder=C:\WINDOWS\Desktop\Visual Basic\Zerocool Chat
+ServerSideCab=
+File1=C:\Psychiatrist\setup.exe
+File2=C:\Psychiatrist\Setup.Lst
+File3=C:\Psychiatrist\Psychiatrist.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
